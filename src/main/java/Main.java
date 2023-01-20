@@ -13,7 +13,7 @@ public class Main {
             System.out.println(loans[i]);
         }
     }
-    
+
     public static void main(String[] args) {
         addLoan(10);
         addLoan(20);
