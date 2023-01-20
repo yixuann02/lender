@@ -23,6 +23,8 @@ public class LoanManager {
         }
     }
 
+    // hope you like this :D
+    
     public double calculateProfitEarned() {
         double profit = 0;
         for (int i = 0; i < loansCount; i++) {
