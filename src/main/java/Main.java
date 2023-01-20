@@ -15,6 +15,8 @@ public class Main {
     }
     
     public static void main(String[] args) {
-
+        addLoan(10);
+        addLoan(20);
+        listLoans();
     }
 }
