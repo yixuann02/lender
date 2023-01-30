@@ -1,5 +1,6 @@
 public class Main {
 
+    // hello, this is for loan managing
     public static void main(String[] args) {
         LoanManager m1 = new LoanManager();
         m1.addLoan("Alice Betsy", 10, 0.1);
@@ -15,5 +16,6 @@ public class Main {
         m2.setAsPaid("Alice Betsy");
         m2.listLoans();
         System.out.println("profit from m2: " + m2.calculateProfitEarned());
+
     }
 }
