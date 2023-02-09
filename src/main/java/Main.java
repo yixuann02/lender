@@ -1,5 +1,6 @@
 public class Main {
-
+    // trying out to branch hehe
+    // new try
     public static void main(String[] args) {
         LoanManager m1 = new LoanManager();
         m1.addLoan("Alice Betsy", 10, 0.1);
@@ -16,6 +17,6 @@ public class Main {
         m2.listLoans();
         System.out.println("profit from m2: " + m2.calculateProfitEarned());
         // add a commit to the main branch
-        // master branch commit
+        // add another new try branch commit
     }
 }
